@@ -1,0 +1,7 @@
+import produtorest.UnidadeMedida
+
+model {
+	UnidadeMedida unidadeMedida
+}
+
+json tmpl.unidadeMedida(unidadeMedida)

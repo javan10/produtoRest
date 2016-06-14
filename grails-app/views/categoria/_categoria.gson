@@ -1,0 +1,7 @@
+import produtorest.Categoria
+
+model {
+	Categoria categoria
+}
+
+json g.render(categoria)

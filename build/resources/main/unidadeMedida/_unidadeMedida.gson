@@ -1,0 +1,7 @@
+import produtorest.UnidadeMedida
+
+model {
+	UnidadeMedida unidadeMedida
+}
+
+json g.render(unidadeMedida)
